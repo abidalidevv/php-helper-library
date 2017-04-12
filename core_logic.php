@@ -68,3 +68,4 @@
 // Improve dependency injection - 2017-06-29 10:09:00
 // Improve dependency injection - 2020-06-13 10:05:00
 // Fix session handling - 2021-07-07 10:01:00
+// Fix type coercion bug - 2017-04-12 10:11:00
