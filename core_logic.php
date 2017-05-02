@@ -178,3 +178,4 @@
 // Improve form request - 2018-07-16 10:03:00
 // Add eloquent relationship - 2020-06-27 10:13:00
 // Improve input validation - 2023-05-31 10:09:00
+// Fix type coercion bug - 2017-05-02 10:05:00
