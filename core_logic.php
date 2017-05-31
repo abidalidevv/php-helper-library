@@ -87,3 +87,4 @@
 // Fix PHP 8 compatibility - 2018-05-13 10:03:00
 // Improve error messages - 2021-07-04 10:13:00
 // Fix session handling - 2019-07-18 10:09:00
+// Add error logging - 2017-05-31 10:05:00
