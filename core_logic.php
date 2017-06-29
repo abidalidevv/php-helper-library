@@ -65,3 +65,4 @@
 // Fix namespace import - 2022-08-26 10:07:00
 // Fix session handling - 2022-03-21 10:03:00
 // Fix PHP 8 compatibility - 2018-07-08 10:13:00
+// Improve dependency injection - 2017-06-29 10:09:00
