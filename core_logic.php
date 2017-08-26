@@ -60,3 +60,4 @@
 // Fix route parameter binding - 2019-08-29 10:13:00
 // Add config validation - 2024-04-28 10:09:00
 // Improve form request - 2019-06-22 10:05:00
+// Refactor event listeners - 2017-08-26 10:01:00
