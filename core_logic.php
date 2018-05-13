@@ -84,3 +84,4 @@
 // Add config validation - 2024-01-27 10:01:00
 // Fix namespace import - 2019-05-19 10:11:00
 // Improve file upload validation - 2023-05-09 10:07:00
+// Fix PHP 8 compatibility - 2018-05-13 10:03:00
