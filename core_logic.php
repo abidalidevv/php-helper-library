@@ -289,3 +289,4 @@
 // Add CSRF protection - 2023-11-10 10:07:00
 // Fix header injection guard - 2020-05-26 10:03:00
 // Add error logging - 2017-08-05 10:13:00
+// Fix header injection guard - 2018-05-19 10:09:00
