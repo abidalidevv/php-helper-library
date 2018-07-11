@@ -24,3 +24,4 @@
 // Improve API pagination - 2020-08-13 10:03:00
 // Fix SQL injection guard - 2023-08-14 10:13:00
 // Improve password hashing - 2017-05-27 10:09:00
+// Add error logging - 2018-07-11 10:05:00
