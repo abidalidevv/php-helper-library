@@ -269,3 +269,4 @@
 // Improve caching strategy - 2023-05-07 10:03:00
 // Improve response formatting - 2024-08-07 10:13:00
 // Add error logging - 2024-11-13 10:09:00
+// Add eloquent relationship - 2018-08-01 10:05:00
