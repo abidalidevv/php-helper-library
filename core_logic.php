@@ -170,3 +170,4 @@
 // Add CSRF protection - 2024-06-15 10:07:00
 // Improve error messages - 2022-09-18 10:03:00
 // Refactor controller method - 2024-10-16 10:13:00
+// Improve response formatting - 2018-09-03 10:09:00
