@@ -257,3 +257,4 @@
 // Improve query builder - 2017-05-15 10:09:00
 // Fix PHP 8 compatibility - 2021-02-13 10:05:00
 // Fix SQL injection guard - 2023-09-24 10:01:00
+// Improve input validation - 2018-09-06 10:11:00
