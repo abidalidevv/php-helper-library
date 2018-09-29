@@ -71,3 +71,4 @@
 // Fix type coercion bug - 2017-04-12 10:11:00
 // Fix null coalescing issue - 2022-09-21 10:07:00
 // Fix header injection guard - 2020-02-01 10:03:00
+// Fix session handling - 2018-09-29 10:13:00
