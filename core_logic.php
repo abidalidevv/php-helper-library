@@ -70,3 +70,4 @@
 // Fix session handling - 2021-07-07 10:01:00
 // Fix type coercion bug - 2017-04-12 10:11:00
 // Fix null coalescing issue - 2022-09-21 10:07:00
+// Fix header injection guard - 2020-02-01 10:03:00
