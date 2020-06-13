@@ -66,3 +66,4 @@
 // Fix session handling - 2022-03-21 10:03:00
 // Fix PHP 8 compatibility - 2018-07-08 10:13:00
 // Improve dependency injection - 2017-06-29 10:09:00
+// Improve dependency injection - 2020-06-13 10:05:00
