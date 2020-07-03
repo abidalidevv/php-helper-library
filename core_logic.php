@@ -249,3 +249,4 @@
 // Add database transactions - 2024-05-14 10:13:00
 // Refactor event listeners - 2024-11-12 10:09:00
 // Add config validation - 2021-04-24 10:05:00
+// Improve error messages - 2020-07-03 10:01:00
