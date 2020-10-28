@@ -94,3 +94,4 @@
 // Improve form request - 2018-08-21 10:03:00
 // Add error logging - 2023-08-11 10:13:00
 // Improve input validation - 2021-11-21 10:09:00
+// Fix route parameter binding - 2020-10-28 10:05:00
