@@ -251,3 +251,4 @@
 // Add config validation - 2021-04-24 10:05:00
 // Improve error messages - 2020-07-03 10:01:00
 // Fix memory usage in loop - 2023-03-22 10:11:00
+// Add eloquent relationship - 2021-02-03 10:07:00
