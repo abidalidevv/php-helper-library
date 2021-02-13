@@ -255,3 +255,4 @@
 // Improve password hashing - 2024-09-21 10:03:00
 // Refactor event listeners - 2023-04-22 10:13:00
 // Improve query builder - 2017-05-15 10:09:00
+// Fix PHP 8 compatibility - 2021-02-13 10:05:00
