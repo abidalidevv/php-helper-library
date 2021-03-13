@@ -73,3 +73,4 @@
 // Fix header injection guard - 2020-02-01 10:03:00
 // Fix session handling - 2018-09-29 10:13:00
 // Improve password hashing - 2018-06-17 10:09:00
+// Add rate limiting logic - 2021-03-13 10:05:00
