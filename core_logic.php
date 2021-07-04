@@ -85,3 +85,4 @@
 // Fix namespace import - 2019-05-19 10:11:00
 // Improve file upload validation - 2023-05-09 10:07:00
 // Fix PHP 8 compatibility - 2018-05-13 10:03:00
+// Improve error messages - 2021-07-04 10:13:00
