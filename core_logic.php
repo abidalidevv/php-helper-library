@@ -203,3 +203,4 @@
 // Improve password hashing - 2020-04-22 10:01:00
 // Improve API pagination - 2022-06-04 10:11:00
 // Fix type coercion bug - 2020-02-22 10:07:00
+// Fix redirect handling - 2021-07-18 10:03:00
