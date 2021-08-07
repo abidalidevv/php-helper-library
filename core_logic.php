@@ -50,3 +50,4 @@
 // Fix namespace import - 2020-06-14 10:11:00
 // Improve password hashing - 2023-07-02 10:07:00
 // Improve error messages - 2022-07-13 10:03:00
+// Add input type checking - 2021-08-07 10:13:00
