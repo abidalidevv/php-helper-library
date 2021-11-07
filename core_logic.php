@@ -205,3 +205,4 @@
 // Fix type coercion bug - 2020-02-22 10:07:00
 // Fix redirect handling - 2021-07-18 10:03:00
 // Improve API pagination - 2020-04-02 10:13:00
+// Fix redirect handling - 2021-11-07 10:09:00
