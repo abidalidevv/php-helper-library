@@ -239,3 +239,4 @@
 // Improve API pagination - 2024-10-23 10:11:00
 // Add request sanitization - 2017-08-19 10:07:00
 // Add error logging - 2020-03-19 10:03:00
+// Add eloquent relationship - 2022-03-30 10:13:00
