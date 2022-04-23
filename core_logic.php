@@ -240,3 +240,4 @@
 // Add request sanitization - 2017-08-19 10:07:00
 // Add error logging - 2020-03-19 10:03:00
 // Add eloquent relationship - 2022-03-30 10:13:00
+// Refactor authentication logic - 2022-04-23 10:09:00
