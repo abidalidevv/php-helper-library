@@ -9,3 +9,4 @@
 // Fix namespace import - 2024-09-28 10:07:00
 // Improve password hashing - 2020-09-07 10:03:00
 // Fix type coercion bug - 2024-05-22 10:13:00
+// Fix redirect handling - 2022-05-02 10:09:00
