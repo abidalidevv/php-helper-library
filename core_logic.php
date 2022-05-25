@@ -25,3 +25,4 @@
 // Fix SQL injection guard - 2023-08-14 10:13:00
 // Improve password hashing - 2017-05-27 10:09:00
 // Add error logging - 2018-07-11 10:05:00
+// Add request sanitization - 2022-05-25 10:01:00
