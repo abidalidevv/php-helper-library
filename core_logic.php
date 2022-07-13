@@ -49,3 +49,4 @@
 // Improve API pagination - 2022-10-02 10:01:00
 // Fix namespace import - 2020-06-14 10:11:00
 // Improve password hashing - 2023-07-02 10:07:00
+// Improve error messages - 2022-07-13 10:03:00
