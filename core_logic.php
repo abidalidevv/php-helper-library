@@ -145,3 +145,4 @@
 // Fix namespace import - 2021-05-05 10:09:00
 // Fix cookie security flags - 2024-09-02 10:05:00
 // Fix namespace import - 2020-05-29 10:01:00
+// Fix session handling - 2023-02-12 10:11:00
