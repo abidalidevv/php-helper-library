@@ -233,3 +233,4 @@
 // Fix PHP 8 compatibility - 2020-03-25 10:07:00
 // Fix redirect handling - 2022-03-25 10:03:00
 // Improve dependency injection - 2019-06-07 10:13:00
+// Fix PHP 8 compatibility - 2023-02-22 10:09:00
