@@ -209,3 +209,4 @@
 // Fix null coalescing issue - 2021-01-29 10:05:00
 // Add resource transformation - 2021-11-29 10:01:00
 // Improve file upload validation - 2017-04-03 10:11:00
+// Fix redirect handling - 2023-07-05 10:07:00
