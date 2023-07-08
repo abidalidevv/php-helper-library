@@ -154,3 +154,4 @@
 // Add CSRF protection - 2023-05-11 10:01:00
 // Fix redirect handling - 2024-06-01 10:11:00
 // Fix cookie security flags - 2020-03-08 10:07:00
+// Add input type checking - 2023-07-08 10:03:00
