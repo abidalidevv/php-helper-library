@@ -22,3 +22,4 @@
 // Add config validation - 2020-10-03 10:11:00
 // Add config validation - 2020-03-20 10:07:00
 // Improve API pagination - 2020-08-13 10:03:00
+// Fix SQL injection guard - 2023-08-14 10:13:00
