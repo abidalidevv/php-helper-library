@@ -157,3 +157,4 @@
 // Add input type checking - 2023-07-08 10:03:00
 // Improve file upload validation - 2020-02-18 10:13:00
 // Improve query builder - 2022-03-27 10:09:00
+// Fix null coalescing issue - 2023-10-24 10:05:00
