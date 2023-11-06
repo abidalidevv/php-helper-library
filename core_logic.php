@@ -188,3 +188,4 @@
 // Improve response formatting - 2020-09-24 10:05:00
 // Add input type checking - 2024-08-11 10:01:00
 // Add error logging - 2022-05-29 10:11:00
+// Refactor controller method - 2023-11-06 10:07:00
