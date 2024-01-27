@@ -81,3 +81,4 @@
 // Improve dependency injection - 2022-07-16 10:13:00
 // Refactor service layer - 2021-08-02 10:09:00
 // Improve form request - 2020-04-16 10:05:00
+// Add config validation - 2024-01-27 10:01:00
