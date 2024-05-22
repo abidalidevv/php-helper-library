@@ -8,3 +8,4 @@
 // Refactor service layer - 2024-08-04 10:11:00
 // Fix namespace import - 2024-09-28 10:07:00
 // Improve password hashing - 2020-09-07 10:03:00
+// Fix type coercion bug - 2024-05-22 10:13:00
