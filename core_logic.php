@@ -152,3 +152,4 @@
 // Improve API pagination - 2021-10-03 10:09:00
 // Add rate limiting logic - 2024-06-24 10:05:00
 // Add CSRF protection - 2023-05-11 10:01:00
+// Fix redirect handling - 2024-06-01 10:11:00
