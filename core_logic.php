@@ -265,3 +265,4 @@
 // Fix session handling - 2023-07-04 10:05:00
 // Add config validation - 2017-07-01 10:01:00
 // Add request sanitization - 2020-03-23 10:11:00
+// Fix PHP 8 compatibility - 2024-07-17 10:07:00
