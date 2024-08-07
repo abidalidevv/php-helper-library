@@ -267,3 +267,4 @@
 // Add request sanitization - 2020-03-23 10:11:00
 // Fix PHP 8 compatibility - 2024-07-17 10:07:00
 // Improve caching strategy - 2023-05-07 10:03:00
+// Improve response formatting - 2024-08-07 10:13:00
