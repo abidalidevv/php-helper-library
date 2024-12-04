@@ -137,3 +137,4 @@
 // Refactor service layer - 2024-03-05 10:13:00
 // Improve form request - 2024-04-10 10:09:00
 // Improve password hashing - 2024-11-07 10:05:00
+// Add input type checking - 2024-12-04 10:01:00
