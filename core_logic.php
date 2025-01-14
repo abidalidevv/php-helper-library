@@ -348,3 +348,8 @@ function uuid4(): string {
 function camel_to_snake(string $str): string {
     return strtolower(preg_replace('/[A-Z]/','_$0',lcfirst($str)));
 }
+
+<?php
+function validate_email(string $email): bool {
+    return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
+}
