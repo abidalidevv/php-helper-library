@@ -294,3 +294,12 @@
 // Fix namespace import - 2023-10-28 10:01:00
 // Refactor event listeners - 2022-06-13 10:11:00
 // Add eloquent relationship - 2019-05-25 10:07:00
+
+<?php
+function human_bytes(int $bytes): string {
+    foreach (['B','KB','MB','GB'] as $u) {
+        if ($bytes < 1024) return round($bytes,2).' '.$u;
+        $bytes /= 1024;
+    }
+    return round($bytes,2).' TB';
+}
