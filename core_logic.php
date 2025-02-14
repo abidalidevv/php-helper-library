@@ -438,3 +438,12 @@ function human_bytes(int $bytes): string {
 function validate_email(string $email): bool {
     return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
 }
+
+<?php
+function human_bytes(int $bytes): string {
+    foreach (['B','KB','MB','GB'] as $u) {
+        if ($bytes < 1024) return round($bytes,2).' '.$u;
+        $bytes /= 1024;
+    }
+    return round($bytes,2).' TB';
+}
