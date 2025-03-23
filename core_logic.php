@@ -303,3 +303,8 @@ function human_bytes(int $bytes): string {
     }
     return round($bytes,2).' TB';
 }
+
+<?php
+function env(string $key, mixed $default=null): mixed {
+    return $_ENV[$key] ?? getenv($key) ?: $default;
+}
