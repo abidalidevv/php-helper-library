@@ -328,3 +328,10 @@ function retry(callable $fn, int $times=3): mixed {
     while ($times--) { try { return $fn(); } catch(\Throwable $e) { $last=$e; } }
     throw $last;
 }
+
+<?php
+function array_flatten(array $arr): array {
+    $r = [];
+    array_walk_recursive($arr, function($v) use (&$r) { $r[] = $v; });
+    return $r;
+}
