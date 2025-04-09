@@ -380,3 +380,8 @@ function array_flatten(array $arr): array {
 function slugify(string $text): string {
     return preg_replace('/[^a-z0-9]+/', '-', strtolower(trim($text)));
 }
+
+<?php
+function truncate(string $str, int $len=100): string {
+    return mb_strlen($str) <= $len ? $str : mb_substr($str,0,$len).'...';
+}
