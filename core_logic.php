@@ -468,3 +468,8 @@ function is_json(string $str): bool {
 function camel_to_snake(string $str): string {
     return strtolower(preg_replace('/[A-Z]/','_$0',lcfirst($str)));
 }
+
+<?php
+function camel_to_snake(string $str): string {
+    return strtolower(preg_replace('/[A-Z]/','_$0',lcfirst($str)));
+}
