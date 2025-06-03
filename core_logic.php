@@ -358,3 +358,8 @@ function validate_email(string $email): bool {
 function truncate(string $str, int $len=100): string {
     return mb_strlen($str) <= $len ? $str : mb_substr($str,0,$len).'...';
 }
+
+<?php
+function truncate(string $str, int $len=100): string {
+    return mb_strlen($str) <= $len ? $str : mb_substr($str,0,$len).'...';
+}
