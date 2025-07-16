@@ -390,3 +390,8 @@ function truncate(string $str, int $len=100): string {
 function validate_email(string $email): bool {
     return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
 }
+
+<?php
+function env(string $key, mixed $default=null): mixed {
+    return $_ENV[$key] ?? getenv($key) ?: $default;
+}
