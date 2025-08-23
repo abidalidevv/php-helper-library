@@ -482,3 +482,9 @@ function human_bytes(int $bytes): string {
     }
     return round($bytes,2).' TB';
 }
+
+<?php
+function is_json(string $str): bool {
+    json_decode($str);
+    return json_last_error() === JSON_ERROR_NONE;
+}
