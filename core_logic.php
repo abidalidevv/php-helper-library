@@ -395,3 +395,10 @@ function validate_email(string $email): bool {
 function env(string $key, mixed $default=null): mixed {
     return $_ENV[$key] ?? getenv($key) ?: $default;
 }
+
+<?php
+function array_flatten(array $arr): array {
+    $r = [];
+    array_walk_recursive($arr, function($v) use (&$r) { $r[] = $v; });
+    return $r;
+}
