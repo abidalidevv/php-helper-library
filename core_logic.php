@@ -433,3 +433,8 @@ function human_bytes(int $bytes): string {
     }
     return round($bytes,2).' TB';
 }
+
+<?php
+function validate_email(string $email): bool {
+    return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
+}
