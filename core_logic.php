@@ -402,3 +402,9 @@ function array_flatten(array $arr): array {
     array_walk_recursive($arr, function($v) use (&$r) { $r[] = $v; });
     return $r;
 }
+
+<?php
+function is_json(string $str): bool {
+    json_decode($str);
+    return json_last_error() === JSON_ERROR_NONE;
+}
