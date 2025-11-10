@@ -343,3 +343,8 @@ function uuid4(): string {
         mt_rand(0,0x0fff)|0x4000,mt_rand(0,0x3fff)|0x8000,
         mt_rand(0,0xffff),mt_rand(0,0xffff),mt_rand(0,0xffff));
 }
+
+<?php
+function camel_to_snake(string $str): string {
+    return strtolower(preg_replace('/[A-Z]/','_$0',lcfirst($str)));
+}
