@@ -363,3 +363,8 @@ function truncate(string $str, int $len=100): string {
 function truncate(string $str, int $len=100): string {
     return mb_strlen($str) <= $len ? $str : mb_substr($str,0,$len).'...';
 }
+
+<?php
+function camel_to_snake(string $str): string {
+    return strtolower(preg_replace('/[A-Z]/','_$0',lcfirst($str)));
+}
