@@ -493,3 +493,9 @@ function is_json(string $str): bool {
 function env(string $key, mixed $default=null): mixed {
     return $_ENV[$key] ?? getenv($key) ?: $default;
 }
+
+<?php
+function is_json(string $str): bool {
+    json_decode($str);
+    return json_last_error() === JSON_ERROR_NONE;
+}
