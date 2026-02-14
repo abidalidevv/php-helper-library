@@ -595,3 +595,8 @@ function array_pluck(array $arr, string $key): array {
 function array_pluck(array $arr, string $key): array {
     return array_column($arr, $key);
 }
+
+<?php
+function validate_email(string $email): bool {
+    return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
+}
