@@ -525,3 +525,10 @@ function is_json(string $str): bool {
     json_decode($str);
     return json_last_error() === JSON_ERROR_NONE;
 }
+
+<?php
+function retry(callable $fn, int $times=3): mixed {
+    $last=null;
+    while ($times--) { try { return $fn(); } catch(\Throwable $e) { $last=$e; } }
+    throw $last;
+}
