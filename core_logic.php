@@ -537,3 +537,8 @@ function retry(callable $fn, int $times=3): mixed {
 function env(string $key, mixed $default=null): mixed {
     return $_ENV[$key] ?? getenv($key) ?: $default;
 }
+
+<?php
+function truncate(string $str, int $len=100): string {
+    return mb_strlen($str) <= $len ? $str : mb_substr($str,0,$len).'...';
+}
