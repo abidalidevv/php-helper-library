@@ -504,3 +504,10 @@ function is_json(string $str): bool {
 function validate_email(string $email): bool {
     return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
 }
+
+<?php
+function retry(callable $fn, int $times=3): mixed {
+    $last=null;
+    while ($times--) { try { return $fn(); } catch(\Throwable $e) { $last=$e; } }
+    throw $last;
+}
