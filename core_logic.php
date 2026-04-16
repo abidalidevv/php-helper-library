@@ -576,3 +576,12 @@ function uuid4(): string {
         mt_rand(0,0x0fff)|0x4000,mt_rand(0,0x3fff)|0x8000,
         mt_rand(0,0xffff),mt_rand(0,0xffff),mt_rand(0,0xffff));
 }
+
+<?php
+function human_bytes(int $bytes): string {
+    foreach (['B','KB','MB','GB'] as $u) {
+        if ($bytes < 1024) return round($bytes,2).' '.$u;
+        $bytes /= 1024;
+    }
+    return round($bytes,2).' TB';
+}
