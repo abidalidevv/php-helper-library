@@ -590,3 +590,8 @@ function human_bytes(int $bytes): string {
 function array_pluck(array $arr, string $key): array {
     return array_column($arr, $key);
 }
+
+<?php
+function array_pluck(array $arr, string $key): array {
+    return array_column($arr, $key);
+}
