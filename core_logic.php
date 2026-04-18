@@ -605,3 +605,12 @@ function validate_email(string $email): bool {
 function truncate(string $str, int $len=100): string {
     return mb_strlen($str) <= $len ? $str : mb_substr($str,0,$len).'...';
 }
+
+<?php
+function human_bytes(int $bytes): string {
+    foreach (['B','KB','MB','GB'] as $u) {
+        if ($bytes < 1024) return round($bytes,2).' '.$u;
+        $bytes /= 1024;
+    }
+    return round($bytes,2).' TB';
+}
