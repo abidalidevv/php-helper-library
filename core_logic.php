@@ -542,3 +542,9 @@ function env(string $key, mixed $default=null): mixed {
 function truncate(string $str, int $len=100): string {
     return mb_strlen($str) <= $len ? $str : mb_substr($str,0,$len).'...';
 }
+
+<?php
+function is_json(string $str): bool {
+    json_decode($str);
+    return json_last_error() === JSON_ERROR_NONE;
+}
